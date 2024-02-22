@@ -9,17 +9,13 @@ See https://docs.docker.com/engine/install/
 ### Clone the repository
 
 ```bash
-git@github.com:foolo/dkimreg_casa.git
-cd dkimreg_casa
-git submodule init
-git submodule update
-cd ..
+git clone --recurse-submodules git@github.com:foolo/dkimreg_casa.git
 ```
 
 ### Build the Docker image
 
 ```bash
-docker build -t casascan dkimreg_casa
+docker build --tag casascan dkimreg_casa/
 ```
 
 ### Run the scan
