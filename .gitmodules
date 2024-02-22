@@ -1,0 +1,3 @@
+[submodule "dkim-lookup"]
+	path = dkim-lookup
+	url = git@github.com:foolo/dkim-lookup.git
