@@ -1,0 +1,13 @@
+namespace: dkim_registry
+output:
+  file_path: ./fluid_attacks_results.csv
+  format: CSV
+working_dir: /fluidscan
+sast:
+  include:
+    - .
+  exclude:
+    - glob(**/node_modules/**)
+sca:
+  include:
+    - .
