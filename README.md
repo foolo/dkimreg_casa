@@ -13,7 +13,7 @@ Clone the repository
 
 ```bash
 git clone --recurse-submodules git@github.com:foolo/dkimreg_casa.git
-cd dkimreg_casa
+cd dkimreg_casa/app
 ```
 
 Build the Docker image
