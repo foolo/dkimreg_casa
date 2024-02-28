@@ -9,11 +9,12 @@ Install Docker if it is not already installed. See https://docs.docker.com/engin
 
 ## Usage
 
-Clone the repository
+Clone the repositories
 
 ```bash
-git clone --recurse-submodules git@github.com:foolo/dkimreg_casa.git
+git clone git@github.com:foolo/dkimreg_casa.git
 cd dkimreg_casa/app
+git clone git@github.com:foolo/dkim-lookup.git
 ```
 
 Build the Docker image
