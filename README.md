@@ -17,12 +17,6 @@ cd dkimreg_casa/app
 git clone git@github.com:foolo/dkim-lookup.git
 ```
 
-Build the Docker image
-
-```bash
-docker build --tag casascan .
-```
-
 Run the scan
 
 ```bash
